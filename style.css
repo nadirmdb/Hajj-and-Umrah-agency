@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: "Almarai", sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.h-links a{
+    font-size: 18px;
+    color: #000000;
+    background-color: #FF9900;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+.h-links a:hover{
+    color:#ffffff;
+    padding: 10px 25px;
+}
+
+.home{
+    background-color: #FF9900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: white;
+    border-radius:0 0 50px 50px;
+}
+
+.home img{
+    width: 450px;
+    border-radius: 50px;
+}
+
+.mekkah{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: rgb(0, 0, 0);
+    border-radius:0 0 50px 50px;
+}
+
+.mekkah img{
+    width: 450px;
+    border-radius: 50px;
+}
+
+.madinah{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: rgb(0, 0, 0);
+    border-radius:0 0 50px 50px;
+}
+
+.madinah img{
+    width: 450px;
+    border-radius: 50px;
+}
+
+.home-txt {
+    font-size:x-large;
+    width: 600px;
+}
+
+.home-txt h1{
+    text-transform: uppercase;
+}
+
+.douaa{
+    font-size: 18px;
+    color: #000000;
+    background-color: #FF9900;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+
+.free-p img {
+    border-radius: 50px;
+    width: 300px;
+    margin: auto;
+}
+
+#dz{
+    border: 5px;
+}
+
+
+#footer{
+    background-color: #FF9900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: white;
+    border-radius:50px 50px 0 0;
+}
+
+#footer iframe{
+    width: 300px;
+    border-radius: 50px;
+}
+
+#footer i {
+    color: white;
+}
+
+
+
+
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #000000;
+    border: 3px solid #FF9900;
+    border-radius: 50px;
+}
+
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 2s linear infinite;
+    -webkit-animation: scroll-left 2s linear infinite;
+    animation: scroll-left 20s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
